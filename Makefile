@@ -9,7 +9,7 @@ cd $(1)
 git pull
 endef
 
-project=motor-cortex
+project=uISP
 remotes=leaf libs bits modules xue
 url_leaf=https://github.com/leaflabs/hardware-lib.git
 url_libs=ssh://git@invyl.ath.cx/~/kicad/libs

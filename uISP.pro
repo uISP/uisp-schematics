@@ -1,6 +1,8 @@
-update=Вск 25 Дек 2011 18:28:39
+update=Вск 18 Мар 2012 13:51:27
 version=1
-last_client=kicad
+last_client=pcbnew
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -63,6 +65,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=libs/AMS1117
 [cvpcb]
 version=1
 NetIExt=net
@@ -70,9 +73,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=3937
+PadDimV=787
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -84,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=uISP.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -98,5 +101,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-[general]
-version=1
+LibName12=modules/USB_PCB

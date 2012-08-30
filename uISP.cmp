@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-02-05 BZR 3258)-stable date = Вск 17 Июн 2012 17:10:59
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Чт. 09 авг. 2012 13:44:00
 
 BeginCmp
 TimeStamp = /4EF73AF2;
@@ -45,14 +45,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4FDCD0A8;
 Reference = D102;
-ValeurCmp = ZENER;
+ValeurCmp = 3v6;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FDCD0AB;
 Reference = D103;
-ValeurCmp = ZENER;
+ValeurCmp = 3v6;
 IdModule  = SM1206;
 EndCmp
 
@@ -106,10 +106,10 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EF73C9F;
+TimeStamp = /5023862E;
 Reference = P101;
 ValeurCmp = EXT_PD;
-IdModule  = SIL-6;
+IdModule  = SIL-5;
 EndCmp
 
 BeginCmp

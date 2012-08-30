@@ -1,465 +1,280 @@
-# EESchema Netlist Version 1.1 created  Вск 17 Июн 2012 17:10:59
+# EESchema Netlist Version 1.1 created  Пт. 17 авг. 2012 14:46:51
 (
- ( /4EF73AF2 SM0805 C101 0.1uF
-  ( 1 GND )
-  ( 2 N-000035 )
+ ( /5023862E $noname  P101 EXT_PD {Lib=CONN_5}
+  (    1 N-000039 )
+  (    2 N-000021 )
+  (    3 N-000038 )
+  (    4 N-000020 )
+  (    5 GND )
  )
- ( /4EF73475 SM0805 C102 27pF
-  ( 1 N-000044 )
-  ( 2 GND )
+ ( /4FDCD0AB $noname  D103 3v6 {Lib=ZENER}
+  (    1 GND )
+  (    2 N-000040 )
  )
- ( /4EF73472 SM0805 C103 27pF
-  ( 1 N-000012 )
-  ( 2 GND )
+ ( /4FDCD0A8 $noname  D102 3v6 {Lib=ZENER}
+  (    1 GND )
+  (    2 N-000032 )
  )
- ( /4F65A897 SM0805 C104 0.1uF
-  ( 1 +5V )
-  ( 2 GND )
+ ( /4FDCC80A $noname  R124 10k {Lib=R}
+  (    1 N-000011 )
+  (    2 /A2 )
  )
- ( /4F65A89C SM0805 C105 0.1_uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FDCC803 $noname  R123 4k7 {Lib=R}
+  (    1 N-000012 )
+  (    2 /A1 )
  )
- ( /4EF73957 LED-0805 D101 LED
-  ( 1 N-000032 )
-  ( 2 GND )
+ ( /4FDCC78A $noname  R122 4k7 {Lib=R}
+  (    1 /A2 )
+  (    2 GND )
  )
- ( /4FDCD0A8 SM1206 D102 ZENER
-  ( 1 ? )
-  ( 2 ? )
+ ( /4FDCC787 $noname  R121 4k7 {Lib=R}
+  (    1 /A1 )
+  (    2 GND )
  )
- ( /4FDCD0AB SM1206 D103 ZENER
-  ( 1 ? )
-  ( 2 ? )
+ ( /4FDCC735 $noname  P107 CONN_VMETER {Lib=CONN_4}
+  (    1 VCC )
+  (    2 N-000012 )
+  (    3 N-000011 )
+  (    4 GND )
  )
- ( /4EF73325 TQFP32 IC101 ATMEGA8-AI
-  ( 1 N-000013 )
-  ( 2 /DP )
-  ( 3 GND )
-  ( 4 VCC )
-  ( 5 GND )
-  ( 6 VCC )
-  ( 7 N-000044 )
-  ( 8 N-000012 )
-  ( 9 N-000023 )
-  ( 10 N-000022 )
-  ( 11 N-000025 )
-  ( 12 /PB0 )
-  ( 13 /PB1 )
-  ( 14 /PB2 )
-  ( 15 /MOSI )
-  ( 16 /MISO )
-  ( 17 /PB5 )
-  ( 18 VCC )
-  ( 19 /A1 )
-  ( 20 N-000035 )
-  ( 21 GND )
-  ( 22 /A2 )
-  ( 23 /CST )
-  ( 24 /RUN )
-  ( 25 N-000031 )
-  ( 26 /T3 )
-  ( 27 /SDA )
-  ( 28 /SCL )
-  ( 29 /RST )
-  ( 30 N-000021 )
-  ( 31 N-000020 )
-  ( 32 /DM )
+ ( /4FDCC65C $noname  R120 470k {Lib=R}
+  (    1 /T3 )
+  (    2 /PB5 )
  )
- ( /4EF7407E USB_PCB J101 USB_2
-  ( 1 GND )
-  ( 2 N-000027 )
-  ( 3 N-000028 )
-  ( 4 +5V )
+ ( /4FDCC65B $noname  R119 680 {Lib=R}
+  (    1 /T3 )
+  (    2 /MISO )
  )
- ( /4F64F50F SIL-2 JP101 SELF
-  ( 1 /RST )
-  ( 2 /PB2 )
+ ( /4FDCC658 $noname  R118 470k {Lib=R}
+  (    1 /RUN )
+  (    2 /MOSI )
  )
- ( /4F6F74A9 SIL-2 JP102 JUMPER
-  ( 1 +5V )
-  ( 2 VCC )
+ ( /4FDCC657 $noname  R117 680 {Lib=R}
+  (    1 /RUN )
+  (    2 /PB2 )
  )
- ( /4F65A200 SIL-2 JP105 JUMPER
-  ( 1 N-000010 )
-  ( 2 N-000042 )
+ ( /4FDCC4B9 $noname  R112 680 {Lib=R}
+  (    1 /CST )
+  (    2 /PB0 )
  )
- ( /4F65A202 SIL-2 JP106 JUMPER
-  ( 1 N-000011 )
-  ( 2 N-000042 )
+ ( /4FDCC4B7 $noname  R116 470k {Lib=R}
+  (    1 /CST )
+  (    2 /PB1 )
  )
- ( /4FDCC46C SIL-3 K101 CONN_TESTER
-  ( 1 /CST )
-  ( 2 /RUN )
-  ( 3 /T3 )
+ ( /4FDCC46C $noname  K101 CONN_TESTER {Lib=CONN_3}
+  (    1 /CST )
+  (    2 /RUN )
+  (    3 /T3 )
  )
- ( /4EF73C9F SIL-6 P101 EXT_PD
-  ( 1 N-000013 )
-  ( 2 N-000023 )
-  ( 3 N-000022 )
-  ( 4 N-000025 )
-  ( 5 GND )
-  ( 6 GND )
+ ( /4F6F74A9 $noname  JP102 JUMPER {Lib=JUMPER}
+  (    1 +5V )
+  (    2 VCC )
  )
- ( /4F64F90D SIL-4 P102 PWM/ICP
-  ( 1 /PB0 )
-  ( 2 /PB1 )
-  ( 3 /PB2 )
-  ( 4 GND )
+ ( /4F65CC73 $noname  P103 CONN_i2c {Lib=CONN_4}
+  (    1 VCC )
+  (    2 /SDA )
+  (    3 /SCL )
+  (    4 GND )
  )
- ( /4F65CC73 SIL-4 P103 CONN_i2c
-  ( 1 /T3 )
-  ( 2 /SDA )
-  ( 3 /SCL )
-  ( 4 GND )
+ ( /4F65B743 $noname  X101 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000014 )
+  (    2 N-000013 )
  )
- ( /4EF735AE SIL-4 P104 CONN_4
-  ( 1 VCC )
-  ( 2 N-000014 )
-  ( 3 N-000015 )
-  ( 4 GND )
+ ( /4F65A89C $noname  C105 0.1_uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4F64F375 pin_array_3x2 P105 ISP6
-  ( 1 /MISO )
-  ( 2 VCC )
-  ( 3 /PB5 )
-  ( 4 /MOSI )
-  ( 5 /PB2 )
-  ( 6 GND )
+ ( /4F65A897 $noname  C104 0.1uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /4F64F37C PIN_ARRAY_5x2 P106 ISP_10
-  ( 1 /MOSI )
-  ( 2 VCC )
-  ( 3 ? )
-  ( 4 N-000001 )
-  ( 5 /PB2 )
-  ( 6 N-000001 )
-  ( 7 /PB5 )
-  ( 8 N-000001 )
-  ( 9 /MISO )
-  ( 10 GND )
+ ( /4F65A202 $noname  JP106 JUMPER {Lib=JUMPER}
+  (    1 N-000003 )
+  (    2 N-000041 )
  )
- ( /4FDCC735 SIL-4 P107 CONN_VMETER
-  ( 1 VCC )
-  ( 2 N-000043 )
-  ( 3 N-000037 )
-  ( 4 GND )
+ ( /4F65A200 $noname  JP105 JUMPER {Lib=JUMPER}
+  (    1 N-000002 )
+  (    2 N-000041 )
  )
- ( /4EF735EA R4 R101 10k
-  ( 1 /RST )
-  ( 2 VCC )
+ ( /4F65A144 $noname  R114 R {Lib=R}
+  (    1 GND )
+  (    2 N-000003 )
  )
- ( /4EF7396E SM0805 R102 220
-  ( 1 N-000032 )
-  ( 2 N-000031 )
+ ( /4F65A141 $noname  R113 R {Lib=R}
+  (    1 GND )
+  (    2 N-000002 )
  )
- ( /4EF735BD SM0805 R103 120
-  ( 1 N-000021 )
-  ( 2 N-000014 )
+ ( /4F65A135 $noname  R115 220 {Lib=R}
+  (    1 VCC )
+  (    2 N-000041 )
  )
- ( /4EF735C1 SM0805 R104 120
-  ( 1 N-000020 )
-  ( 2 N-000015 )
+ ( /4F65A11E $noname  U101 AMS1117 {Lib=AMS1117}
+  (    1 N-000041 )
+  (    2 VCC )
+  (    3 +5V )
  )
- ( /4EF739CC SM0805 R105 1k
-  ( 1 N-000033 )
-  ( 2 /CST )
+ ( /4F64F90D $noname  P102 PWM/ICP {Lib=CONN_4}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 GND )
  )
- ( /4EF739D1 SM0805 R106 1k
-  ( 1 N-000034 )
-  ( 2 /RUN )
+ ( /4F64F50F $noname  JP101 SELF {Lib=JUMPER}
+  (    1 /RST )
+  (    2 /PB2 )
  )
- ( /4EF7383B SM0805 R107 R
-  ( 1 VCC )
-  ( 2 /SDA )
+ ( /4F64F37C $noname  P106 ISP_10 {Lib=CONN_5X2}
+  (    1 /MOSI )
+  (    2 VCC )
+  (    3 ? )
+  (    4 GND )
+  (    5 /PB2 )
+  (    6 GND )
+  (    7 /PB5 )
+  (    8 GND )
+  (    9 /MISO )
+  (   10 GND )
  )
- ( /4EF7383D SM0805 R108 R
-  ( 1 VCC )
-  ( 2 /SCL )
+ ( /4F64F375 $noname  P105 ISP6 {Lib=CONN_3X2}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /PB5 )
+  (    4 /MOSI )
+  (    5 /PB2 )
+  (    6 GND )
  )
- ( /4EF74090 SM0805 R109 68
-  ( 1 /DM )
-  ( 2 N-000028 )
+ ( /4EF740BD $noname  R111 1k5 {Lib=R}
+  (    1 VCC )
+  (    2 N-000040 )
  )
- ( /4EF74094 SM0805 R110 68
-  ( 1 /DP )
-  ( 2 N-000027 )
+ ( /4EF74094 $noname  R110 68 {Lib=R}
+  (    1 /DP )
+  (    2 N-000032 )
  )
- ( /4EF740BD SM0805 R111 1k5
-  ( 1 VCC )
-  ( 2 N-000028 )
+ ( /4EF74090 $noname  R109 68 {Lib=R}
+  (    1 /DM )
+  (    2 N-000040 )
  )
- ( /4FDCC4B9 SM0805 R112 680
-  ( 1 /CST )
-  ( 2 /PB0 )
+ ( /4EF7407E $noname  J101 USB_2 {Lib=USB_2}
+  (    1 GND )
+  (    2 N-000032 )
+  (    3 N-000040 )
+  (    4 +5V )
  )
- ( /4F65A141 SM0805 R113 R
-  ( 1 GND )
-  ( 2 N-000010 )
+ ( /4EF73AF2 $noname  C101 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 N-000030 )
  )
- ( /4F65A144 SM0805 R114 R
-  ( 1 GND )
-  ( 2 N-000011 )
+ ( /4EF739D1 $noname  R106 1k {Lib=R}
+  (    1 N-000029 )
+  (    2 /RUN )
  )
- ( /4F65A135 SM0805 R115 220
-  ( 1 VCC )
-  ( 2 N-000042 )
+ ( /4EF739CC $noname  R105 1k {Lib=R}
+  (    1 N-000028 )
+  (    2 /CST )
  )
- ( /4FDCC4B7 SM0805 R116 470k
-  ( 1 /CST )
-  ( 2 /PB1 )
+ ( /4EF7396E $noname  R102 220 {Lib=R}
+  (    1 N-000027 )
+  (    2 N-000026 )
  )
- ( /4FDCC657 SM0805 R117 680
-  ( 1 /RUN )
-  ( 2 /PB2 )
+ ( /4EF73957 $noname  D101 LED {Lib=LED}
+  (    1 N-000027 )
+  (    2 GND )
  )
- ( /4FDCC658 SM0805 R118 470k
-  ( 1 /RUN )
-  ( 2 /MOSI )
+ ( /4EF7383D $noname  R108 R {Lib=R}
+  (    1 VCC )
+  (    2 /SCL )
  )
- ( /4FDCC65B SM0805 R119 680
-  ( 1 /T3 )
-  ( 2 /MISO )
+ ( /4EF7383B $noname  R107 R {Lib=R}
+  (    1 VCC )
+  (    2 /SDA )
  )
- ( /4FDCC65C SM0805 R120 470k
-  ( 1 /T3 )
-  ( 2 /PB5 )
+ ( /4EF736AF $noname  SW101 RST {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 /RST )
  )
- ( /4FDCC787 SM0805 R121 4k7
-  ( 1 /A1 )
-  ( 2 GND )
+ ( /4EF735EA $noname  R101 10k {Lib=R}
+  (    1 /RST )
+  (    2 VCC )
  )
- ( /4FDCC78A SM0805 R122 4k7
-  ( 1 /A2 )
-  ( 2 GND )
+ ( /4EF735C1 $noname  R104 120 {Lib=R}
+  (    1 /TX )
+  (    2 N-000017 )
  )
- ( /4FDCC803 SM0805 R123 4k7
-  ( 1 N-000043 )
-  ( 2 /A1 )
+ ( /4EF735BD $noname  R103 120 {Lib=R}
+  (    1 /RX )
+  (    2 N-000016 )
  )
- ( /4FDCC80A SM0805 R124 10k
-  ( 1 N-000037 )
-  ( 2 /A2 )
+ ( /4EF735AE $noname  P104 CONN_4 {Lib=CONN_4}
+  (    1 VCC )
+  (    2 N-000016 )
+  (    3 N-000017 )
+  (    4 GND )
  )
- ( /4EF736AF SW_PUSH_SMALL SW101 RST
-  ( 1 GND )
-  ( 2 /RST )
+ ( /4EF73475 $noname  C102 27pF {Lib=C}
+  (    1 N-000013 )
+  (    2 GND )
  )
- ( /4EF73393 SW_PUSH_SMALL SW102 TARGET_SEL
-  ( 1 N-000033 )
-  ( 2 GND )
+ ( /4EF73472 $noname  C103 27pF {Lib=C}
+  (    1 N-000014 )
+  (    2 GND )
  )
- ( /4EF733EF SW_PUSH_SMALL SW103 RUN
-  ( 1 N-000034 )
-  ( 2 GND )
+ ( /4EF733EF $noname  SW103 RUN {Lib=SW_PUSH}
+  (    1 N-000029 )
+  (    2 GND )
  )
- ( /4F65A11E SOT223 U101 AMS1117
-  ( 1 N-000042 )
-  ( 2 VCC )
-  ( 3 +5V )
+ ( /4EF73393 $noname  SW102 TARGET_SEL {Lib=SW_PUSH}
+  (    1 N-000028 )
+  (    2 GND )
  )
- ( /4F65B743 HC-49V X101 CRYSTAL
-  ( 1 N-000012 )
-  ( 2 N-000044 )
+ ( /4EF73325 TQFP32  IC101 ATMEGA8-AI {Lib=ATMEGA8-AI}
+  (    1 N-000039 )
+  (    2 /DP )
+  (    3 GND )
+  (    4 VCC )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000013 )
+  (    8 N-000014 )
+  (    9 N-000021 )
+  (   10 N-000038 )
+  (   11 N-000020 )
+  (   12 /PB0 )
+  (   13 /PB1 )
+  (   14 /PB2 )
+  (   15 /MOSI )
+  (   16 /MISO )
+  (   17 /PB5 )
+  (   18 VCC )
+  (   19 /A1 )
+  (   20 N-000030 )
+  (   21 GND )
+  (   22 /A2 )
+  (   23 /CST )
+  (   24 /RUN )
+  (   25 N-000026 )
+  (   26 /T3 )
+  (   27 /SDA )
+  (   28 /SCL )
+  (   29 /RST )
+  (   30 /RX )
+  (   31 /TX )
+  (   32 /DM )
  )
 )
 *
 { Allowed footprints by component:
-$component C101
+$component D103
+ D?
+ SO*
  SM*
- C?
- C1-1
-$endlist
-$component C102
- SM*
- C?
- C1-1
-$endlist
-$component C103
- SM*
- C?
- C1-1
-$endlist
-$component C104
- SM*
- C?
- C1-1
-$endlist
-$component C105
- SM*
- C?
- C1-1
-$endlist
-$component D101
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
 $endlist
 $component D102
  D?
  SO*
  SM*
 $endlist
-$component D103
- D?
- SO*
- SM*
-$endlist
-$component IC101
- TQFP32
-$endlist
-$component R101
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R102
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R103
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R104
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R105
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R106
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R107
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R108
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R109
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R110
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R111
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R112
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R113
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R114
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R115
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R116
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R117
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R118
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R119
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R120
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R121
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R122
+$component R124
  R?
  SM0603
  SM0805
@@ -473,12 +288,398 @@ $component R123
  R?-*
  SM1206
 $endlist
-$component R124
+$component R122
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
+$component R121
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R120
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R119
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R118
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R117
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R112
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R116
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C105
+ SM*
+ C?
+ C1-1
+$endlist
+$component C104
+ SM*
+ C?
+ C1-1
+$endlist
+$component R114
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R113
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R115
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R111
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R110
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R109
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C101
+ SM*
+ C?
+ C1-1
+$endlist
+$component R106
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R105
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R108
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R107
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R104
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C102
+ SM*
+ C?
+ C1-1
+$endlist
+$component C103
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC101
+ TQFP32
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ C104 1
+ JP102 1
+ U101 3
+ J101 4
+Net 2 "" ""
+ R113 2
+ JP105 1
+Net 3 "" ""
+ R114 2
+ JP106 1
+Net 4 "/MOSI" "MOSI"
+ R118 2
+ IC101 15
+ P106 1
+ P105 4
+Net 5 "/RUN" "RUN"
+ R118 1
+ R117 1
+ R106 2
+ K101 2
+ IC101 24
+Net 6 "/MISO" "MISO"
+ P105 1
+ R119 2
+ IC101 16
+ P106 9
+Net 7 "/PB0" "PB0"
+ IC101 12
+ R112 2
+ P102 1
+Net 8 "/PB1" "PB1"
+ IC101 13
+ R116 2
+ P102 2
+Net 9 "/PB2" "PB2"
+ IC101 14
+ P102 3
+ R117 2
+ P106 5
+ P105 5
+ JP101 2
+Net 10 "/PB5" "PB5"
+ IC101 17
+ P106 7
+ R120 2
+ P105 3
+Net 11 "" ""
+ R124 1
+ P107 3
+Net 12 "" ""
+ R123 1
+ P107 2
+Net 13 "" ""
+ C102 1
+ X101 2
+ IC101 7
+Net 14 "" ""
+ C103 1
+ IC101 8
+ X101 1
+Net 15 "/DP" "DP"
+ IC101 2
+ R110 1
+Net 16 "" ""
+ R103 2
+ P104 2
+Net 17 "" ""
+ R104 2
+ P104 3
+Net 18 "/T3" "T3"
+ R119 1
+ K101 3
+ R120 1
+ IC101 26
+Net 19 "/CST" "CST"
+ R112 1
+ R116 1
+ R105 2
+ K101 1
+ IC101 23
+Net 20 "" ""
+ P101 4
+ IC101 11
+Net 21 "" ""
+ P101 2
+ IC101 9
+Net 22 "/DM" "DM"
+ IC101 32
+ R109 1
+Net 24 "/SDA" "SDA"
+ IC101 27
+ R107 2
+ P103 2
+Net 25 "/SCL" "SCL"
+ R108 2
+ IC101 28
+ P103 3
+Net 26 "" ""
+ IC101 25
+ R102 2
+Net 27 "" ""
+ D101 1
+ R102 1
+Net 28 "" ""
+ R105 1
+ SW102 1
+Net 29 "" ""
+ R106 1
+ SW103 1
+Net 30 "" ""
+ IC101 20
+ C101 2
+Net 31 "/RST" "RST"
+ JP101 1
+ R101 1
+ SW101 2
+ IC101 29
+Net 32 "" ""
+ R110 2
+ J101 2
+ D102 2
+Net 33 "/RX" "RX"
+ IC101 30
+ R103 1
+Net 34 "/A2" "A2"
+ IC101 22
+ R122 1
+ R124 2
+Net 35 "VCC" "VCC"
+ P103 1
+ JP102 2
+ P104 1
+ R101 2
+ U101 2
+ R115 1
+ C105 1
+ P107 1
+ R111 1
+ P105 2
+ P106 2
+ R107 1
+ R108 1
+ IC101 18
+ IC101 6
+ IC101 4
+Net 36 "/A1" "A1"
+ R123 2
+ IC101 19
+ R121 1
+Net 37 "GND" "GND"
+ P101 5
+ D103 1
+ D102 1
+ R122 2
+ IC101 5
+ C102 2
+ P104 4
+ IC101 3
+ SW101 1
+ IC101 21
+ C103 2
+ P105 6
+ J101 1
+ P106 10
+ P106 8
+ P106 6
+ P106 4
+ P102 4
+ R113 1
+ R114 1
+ C104 2
+ C105 2
+ P107 4
+ P103 4
+ SW102 2
+ SW103 2
+ D101 2
+ R121 2
+ C101 1
+Net 38 "" ""
+ IC101 10
+ P101 3
+Net 39 "" ""
+ P101 1
+ IC101 1
+Net 40 "" ""
+ J101 3
+ D103 2
+ R109 2
+ R111 2
+Net 41 "" ""
+ U101 1
+ JP105 2
+ R115 2
+ JP106 2
+Net 42 "/TX" "TX"
+ IC101 31
+ R104 1
+}
+#End
