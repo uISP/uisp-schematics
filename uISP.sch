@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пт. 31 авг. 2012 01:12:05
+EESchema Schematic File Version 2  date Пн. 17 сент. 2012 16:38:11
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 aug 2012"
+Date "17 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1087,7 +1087,7 @@ L R R108
 U 1 1 4EF7383D
 P 8950 5050
 F 0 "R108" V 9030 5050 50  0000 C CNN
-F 1 "R" V 8950 5050 50  0000 C CNN
+F 1 "4k7" V 8950 5050 50  0000 C CNN
 	1    8950 5050
 	1    0    0    -1  
 $EndComp
@@ -1096,7 +1096,7 @@ L R R107
 U 1 1 4EF7383B
 P 8750 5050
 F 0 "R107" V 8830 5050 50  0000 C CNN
-F 1 "R" V 8750 5050 50  0000 C CNN
+F 1 "4k7" V 8750 5050 50  0000 C CNN
 	1    8750 5050
 	1    0    0    -1  
 $EndComp
