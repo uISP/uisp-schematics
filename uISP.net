@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Пт. 17 авг. 2012 14:46:51
+# EESchema Netlist Version 1.1 created  Пн. 15 окт. 2012 14:32:44
 (
  ( /5023862E $noname  P101 EXT_PD {Lib=CONN_5}
   (    1 N-000039 )
@@ -76,7 +76,7 @@
   (    3 /SCL )
   (    4 GND )
  )
- ( /4F65B743 $noname  X101 CRYSTAL {Lib=CRYSTAL}
+ ( /4F65B743 $noname  X101 12M {Lib=CRYSTAL}
   (    1 N-000014 )
   (    2 N-000013 )
  )
@@ -96,11 +96,11 @@
   (    1 N-000002 )
   (    2 N-000041 )
  )
- ( /4F65A144 $noname  R114 R {Lib=R}
+ ( /4F65A144 $noname  R114 470R {Lib=R}
   (    1 GND )
   (    2 N-000003 )
  )
- ( /4F65A141 $noname  R113 R {Lib=R}
+ ( /4F65A141 $noname  R113 370R {Lib=R}
   (    1 GND )
   (    2 N-000002 )
  )
@@ -165,11 +165,11 @@
   (    1 GND )
   (    2 N-000030 )
  )
- ( /4EF739D1 $noname  R106 1k {Lib=R}
+ ( /4EF739D1 $noname  R106 220 {Lib=R}
   (    1 N-000029 )
   (    2 /RUN )
  )
- ( /4EF739CC $noname  R105 1k {Lib=R}
+ ( /4EF739CC $noname  R105 220 {Lib=R}
   (    1 N-000028 )
   (    2 /CST )
  )
@@ -181,11 +181,11 @@
   (    1 N-000027 )
   (    2 GND )
  )
- ( /4EF7383D $noname  R108 R {Lib=R}
+ ( /4EF7383D $noname  R108 4k7 {Lib=R}
   (    1 VCC )
   (    2 /SCL )
  )
- ( /4EF7383B $noname  R107 R {Lib=R}
+ ( /4EF7383B $noname  R107 4k7 {Lib=R}
   (    1 VCC )
   (    2 /SDA )
  )
