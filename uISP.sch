@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пн. 17 сент. 2012 16:38:11
+EESchema Schematic File Version 2  date Пн. 15 окт. 2012 14:26:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:AMS1117
-LIBS:uISP-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 sep 2012"
+Date "15 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -758,7 +757,7 @@ L R R114
 U 1 1 4F65A144
 P 7000 2150
 F 0 "R114" V 7080 2150 50  0000 C CNN
-F 1 "R" V 7000 2150 50  0000 C CNN
+F 1 "470R" V 7000 2150 50  0000 C CNN
 	1    7000 2150
 	0    -1   -1   0   
 $EndComp
@@ -767,7 +766,7 @@ L R R113
 U 1 1 4F65A141
 P 7000 2000
 F 0 "R113" V 7080 2000 50  0000 C CNN
-F 1 "R" V 7000 2000 50  0000 C CNN
+F 1 "370R" V 7000 2000 50  0000 C CNN
 	1    7000 2000
 	0    -1   -1   0   
 $EndComp
