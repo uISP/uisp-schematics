@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пн. 15 окт. 2012 14:26:31
+EESchema Schematic File Version 2  date Пн. 15 окт. 2012 14:27:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:AMS1117
+LIBS:uISP-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -703,7 +704,7 @@ L CRYSTAL X101
 U 1 1 4F65B743
 P 1700 4750
 F 0 "X101" H 1700 4900 60  0000 C CNN
-F 1 "CRYSTAL" H 1700 4600 60  0000 C CNN
+F 1 "12M" H 1700 4600 60  0000 C CNN
 	1    1700 4750
 	-1   0    0    1   
 $EndComp
