@@ -10,15 +10,14 @@ git pull
 endef
 
 project=uISP
-remotes=leaf libs bits modules xue
+remotes=leaf libs modules
 url_leaf=https://github.com/leaflabs/hardware-lib.git
-url_libs=ssh://git@invyl.ath.cx/~/kicad/libs
-url_bits=ssh://git@invyl.ath.cx/~/kicad/bits
-url_modules=ssh://git@invyl.ath.cx/~/kicad/modules
+url_libs=https://github.com/nekromant/nc-libs
+url_modules=https://github.com/nekromant/nc-mods
 url_xue=git://projects.qi-hardware.com/xue.git
 all: .bootstrapped
 
-push=modules bits libs
+push=modules libs
 
 p-%:
 	cd $* && git push
